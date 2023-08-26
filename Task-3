@@ -39,7 +39,7 @@
         <label for="mobile">Roll No:</label>
       </div>
       <div class="col-90">
-        <input type="text" id="Rollno" name="Rollno" placeholder="(e.g:22DPIT030HY)">
+        <input type="text" id="Rollno" name="Rollno" placeholder="(e.g:22DPIT038HY)">
         <br><br>
       </div>
     </div>
