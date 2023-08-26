@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registaration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1><center>Student Registaration Form</h1></center>
+    <div class="row">
+      <div class="col-10">
+        <label for="fname">First Name:</label>
+      </div>
+      <div class="col-90">
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <label for="lname">Last Name:</label>
+      </div>
+      <div class="col-90">
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <label for="email">Email:</label>
+      </div>
+      <div class="col-90">
+        <input type="email" id="email" name="email" placeholder="it should contain @,.">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <label for="mobile">Roll No:</label>
+      </div>
+      <div class="col-90">
+        <input type="text" id="Rollno" name="Rollno" placeholder="(e.g:22DPIT030HY)">
+        <br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-10">
+        <label for="gender" required>Gender:</label>
+      </div>
+      <div class="col-90">
+        <input type="radio" id="male" name="gender" value="male"/>Male
+        <input type="radio" id="female" name="gender" value="female" />Female
+        <input type="radio" id="female" name="gender" value="female" />Other<br><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-10">
+        <label for="Branch Selection">Branch Selection:</label>
+      </div>
+      <div class="col-90">
+        <input type="radio" class="Branch Selection" id="it" name="Branch Selection[]" value="Information Technology">Information Technology<br />
+        <input type="radio" class="Branch Selection" id="cse" name="Branch Selection[]"value="Computer Science">Computer Science Engineering<br />
+        <input type="radio" class="Branch Selection" id="ce" name="Branch Selection[]"value="Civil">Civil Engineering<br />
+        <input type="radio" class="Branch Selection" id="ece" name="Branch Selection[]" value="Electronic ">Electronics & Communication Engineering<br/><br><br>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-10">
+        <label for="Branch Selection">Interests:</label>
+      </div>
+      <div class="col-90">
+        <input type="checkbox" class="Interests"name="Interests[]" value="Web Devlopment">Web Devlopment<br />
+        <input type="checkbox" class="Interests"name="Interests[]"value="Python">Python<br />
+        <input type="checkbox" class="Interests"name="Interests[]"value="Java">JAVA<br />
+        <input type="checkbox" class="Interests"name="Interests[]" value="MySQL">MySQL<br/>
+        <input type="checkbox" class="Interests"name="Interests[]" value="AI/ML">AI/ML<br/>
+        <input type="checkbox" class="Interests"name="Interests[]" value="Blockchain">Blockchain<br/><br><br>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-10">
+        <label for="address">Message:<br><br></label>
+      </div>
+      <div class="col-90">
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+      </div>
+    </div>
+  <button>
+   <a href="thank_page.html" target="_blank">Submit</a>
+   </button>
+</body>
+
+</html>
