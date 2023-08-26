@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+a:link {
+  background-color: hotpink;
+}
+
+a:visited {
+  background-color: Lightgreen;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+a:active {
+  background-color: yellow;
+} 
+</style>
+</head>
+<body>
+  <h1>About Me</h1>
+  <p>Hi, <br>I'm Md Rehan, <br> 
+    Diploma in Information Technology,<br> 
+    a keen interest in Web Development as well as Python programming and always eager to leam new technologies. <br>
+    I have detailed understanding of complex, <br> 
+    programming languages and considerations. <br>
+    and making an innovative approach to actualizing organizational marketing plans. <br>
+    I do have an experience in working on multiple projects, <br>
+    which are focused on python/Android/Web Development.</p>
+    <img src=""alt="This is me"
+       <img src="/task-1/e5813513-1b9f-4d33-b669-of415f5a0f6e.jpg" alt="my pic" width="200" height="200">
+    <a href="/task-1/e5813513-1b9f-4d33-b669-of415f5a0f6e.jpg"><br>This is my pic</a>
+</body>
+</html>
